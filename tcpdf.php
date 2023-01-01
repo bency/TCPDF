@@ -2350,6 +2350,11 @@ class TCPDF
 		$this->pagedim[$this->page]['orm'] = $this->original_rMargin;
 	}
 
+	public function setDPI($dpi)
+	{
+		$this->dpi = $dpi;
+	}
+
 	/**
 	 * Set regular expression to detect withespaces or word separators.
 	 * The pattern delimiter must be the forward-slash character "/".
